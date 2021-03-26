@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <table>
+            <tr>
+                <th>Student</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+			<!-- loop through the users we passed in the app. -->
+            {% for row in results %}
+                <tr>
+                    <td><a href="{{ row[1] }}">{{ row[4] }}</a></td>
+                    <td>{{ row[3] }}</td>
+                    <td>{{ row[2] }}</td>
+                  </tr>
+            {% endfor %}
+        </table>
+
+        <p><a href="{{ url_for('index') }}">Return to the first page</a></p>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Lab11 - Saba Rokni</h1>
+
+<p>Please select an option:</p>
+
+    <ul>
+        <li><a href="{{ url_for('findstudent') }}">Find a student on Google Map</a></li>
+        <li><a href="{{ url_for('displayall') }}">Display all students</a></li>
+    </ul>
+
+{% endblock %}
