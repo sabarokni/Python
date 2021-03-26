@@ -1,0 +1,119 @@
+# Saba Rokni 
+# 040951680
+
+Task1 
+-------
+# What are the IP address listed for google.ca?
+
+Server:		192.168.137.1
+Address:	192.168.137.1#53
+
+Non-authoritative answer:
+Name:	google.ca
+Address: 172.217.0.227
+Name:	google.ca
+Address: 2607:f8b0:400b:800::2003
+
+# What are the name servers listed for this domain name?
+
+Non-authoritative answer:
+
+google.com	nameserver = ns4.google.com.
+google.com	nameserver = ns3.google.com.
+google.com	nameserver = ns2.google.com.
+google.com	nameserver = ns1.google.com.
+
+# What is the start of authority information listed for this zone?
+
+Non-authoritative answer:
+	origin = ns1.google.com
+	mail addr = dns-admin.google.com
+	serial = 304147322
+	refresh = 900
+	retry = 900
+	expire = 1800
+	minimum = 60
+
+# What are the mail exchangers listed for this domain name?
+
+Non-authoritative answer:
+google.com	mail exchanger = 40 alt3.aspmx.l.google.com.
+google.com	mail exchanger = 20 alt1.aspmx.l.google.com.
+google.com	mail exchanger = 50 alt4.aspmx.l.google.com.
+google.com	mail exchanger = 10 aspmx.l.google.com.
+google.com	mail exchanger = 30 alt2.aspmx.l.google.com.
+
+Task2 
+----------
+
+# What are the IP address listed for algonquincollege.com?
+
+Server:		192.168.137.1
+Address:	192.168.137.1#53
+
+Non-authoritative answer:
+Name:	algonquincollege.com
+Address: 54.86.119.60
+
+# What are the name servers listed for this domain name?
+
+algonquincollege.com	nameserver = ns5.algonquincollege.com.
+algonquincollege.com	nameserver = ns3.algonquincollege.com.
+
+# What is the start of authority information listed for this zone?
+
+Non-authoritative answer:
+	origin = ns5.algonquincollege.com
+	mail addr = fwadm.algonquincollege.com
+	serial = 2020032506
+	refresh = 3600
+	retry = 3600
+	expire = 1209600
+	minimum = 3600
+
+
+# What are the mail exchangers listed for this domain name?
+
+Non-authoritative answer:
+algonquincollege.com	mail exchanger = 10 algonquincollege-com.mail.protection.outlook.com.
+
+
+Task 3
+----------------
+
+# What is the IP address listed?
+
+Server:		192.168.137.1
+Address:	192.168.137.1#53
+
+Non-authoritative answer:
+Name:	college.com
+Address: 198.185.159.135
+
+# What is the first com name server IP address returned?
+
+com	nameserver = a.gtld-servers.net.
+
+# What are the DNS servers listed for the algonquincollege.com domain.
+
+Server:		ns5.algonquincollege.com.
+Address:	205.211.50.8#53
+
+algonquincollege.com	nameserver = ns5.algonquincollege.com.
+algonquincollege.com	nameserver = ns3.algonquincollege.com.
+
+# What is the IP returned?
+
+Server:		ns5.algonquincollege.com.
+Address:	205.211.50.8#53
+
+Name:	algonquincollege.com
+Address: 54.86.119.60
+
+
+# Is it the same IP as the IP returned step 1?
+
+No
+
+
+

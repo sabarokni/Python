@@ -1,0 +1,35 @@
+//Saba - Rokni - 040951680
+//my laptop ip address
+
+ping 10.70.166.166: 
+PING 10.70.166.166 (10.70.166.166) 56(84) bytes of data.
+--- 10.70.166.166 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 399ms
+
+
+
+//the pi of your partner using the pi partner’s host Fully Qualified Host Name (FQDN) 
+
+ping pasi0014.ottawa.ad.algonquincollege.com
+ping: pasi0014.ottawa.ad.algonquincollege.com: Name or service not known
+
+
+
+
+//the pi of your partner using the pi partner’s ip address
+
+ping 10.50.11.37: 
+64 bytes from 10.50.11.37: icmp_seq=2 ttl=64 time=0.192 ms
+
+
+
+//localhost
+
+ping localhost:
+PING localhost(localhost (::1)) 56 data bytes
+64 bytes from localhost (::1): icmp_seq=1 ttl=64 time=0.094 ms
+64 bytes from localhost (::1): icmp_seq=2 ttl=64 time=0.094 ms
+64 bytes from localhost (::1): icmp_seq=3 ttl=64 time=0.092 ms
+
+
+

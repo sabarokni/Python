@@ -1,0 +1,14 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:5900            0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:webmin          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:mysql         0.0.0.0:*               LISTEN     
+tcp        0     36 10.50.11.162:ssh        10.70.166.166:52766     ESTABLISHED
+tcp        0      0 localhost:35895         localhost:43420         ESTABLISHED
+tcp        0      0 192.168.137.102:ssh     192.168.137.1:52758     ESTABLISHED
+tcp        0      0 localhost:43420         localhost:35895         ESTABLISHED
+tcp        0      0 10.50.11.162:5900       10.70.166.166:52838     ESTABLISHED
+tcp6       0      0 [::]:5900               [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
